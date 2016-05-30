@@ -1,0 +1,470 @@
+
+html{
+    margin: 0;
+    padding: 0;
+}
+body {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.list{
+    overflow: hidden; 
+}
+#timer{
+    width: 100%;
+    height: 30px;
+    background-image: url(../images/timer.png);
+}
+#vidContainer{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.uploadFile{
+    display: none;
+}
+#gum{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+#recorded{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.btn{
+    margin-top: -4px;
+    color: #d2094f;
+    border: none;
+    width: 50%;
+    height: 50px;
+    font-size: 2em;
+    background-color: #f3bb24;
+}
+#btns{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    background-color: #ffeacc;
+    margin: 0;
+}
+
+.centerscreen {
+    background-image: url(../images/screens-01.png);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: auto;  
+}
+/*.vraagachtergrond {
+    background-image: url(../images/vraag.png);
+     width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+    
+}*/
+.titelVraag{
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    color: #d2094f;
+    font: 'sans-serif';   
+    font-size: 5em;
+    width: 50%;
+    text-align: center;
+    margin-top: 200px;
+}
+.zeshoek{
+    margin: 0;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/zeshoek.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+h3 {
+    color: #d2094f;
+    font: 'sans-serif';
+    font-size: 1.5em;
+    width: 300px;
+    text-align: center;
+
+}
+.vraagLinks{
+    display: flex;
+    justify-content: center;
+}
+.antwoord {
+    width: 45%;
+    background-image: url(../images/vierhoek.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 340px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 2em;
+    color: #000;
+    font-weight: bold;
+}
+.ontdek {
+    width: 45%;
+    background-image: url(../images/vierhoek2.png);
+   background-repeat: no-repeat;
+    background-size: cover;
+    height: 340px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 2em;
+    color: #000;
+    font-weight: bold;
+}
+
+.upperbar {
+    background-color: #f3bb24;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2 {
+    color: #d2094f;
+    /*background: #000;*/
+    font: 'sans-serif';
+    display: block;
+    font-size: 3.5em;
+    /*width: 100%;*/
+    text-align: center;
+
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.inputtext{
+    width: 85%;
+    height: 85px;
+    margin-top: 5px;
+}
+.accountknop {
+    color: #000;
+    margin: 50px auto;
+    font-size: 2.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.registreerknop {
+    background-color: #f3bb24;
+    margin-top: 25px;
+    width: 90%;
+    height: 100px;
+}
+.of {
+    color: #d2094f;
+    font: 'sans-serif';
+    display: block;
+    margin-top: 50px;
+    font-size: 3em;
+    width: 100%;
+    text-align: center;
+} 
+.facebook {
+  
+    margin: 0 auto;
+    width: 60%;
+    height: 85px;
+    background-image: url(../images/icon-login-fb.png);
+    background-size: cover;
+}
+.feed {
+    background-color: white;
+    margin: 0;
+}
+.logo {
+   /* background-image: url(../images/logo%20klein.png);*/
+    height: 150px;
+    background-repeat: no-repeat;
+}
+.upperbar__feed {
+    background-color: #ffeacc;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    padding: 5px 0;
+}
+.buttons{
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    background-color: #fff;
+    z-index: 2;
+    position: fixed;
+    bottom: 0;
+}    
+.populair {
+    width: 50%;
+    height: 150px;
+    background-color: #d2094f;
+    text-align: center;
+    font-size: 3em;
+}
+.nieuw {
+    width: 50%;
+    height: 150px;
+    background-color: #ffeacc;
+    text-align: center;
+    font-size: 3em;
+    
+}
+h4{
+     color: #d2094f;
+}
+.h4populair {
+    color: #ffeacc;
+}
+
+input[type=text]{
+    font-size: 3em;
+    padding-left: 50px;
+}
+input[type=submit]{
+    font-size: 3em;
+}
+.titelvraag{
+    margin: 0;
+}
+.theVid{
+    width: 100%;
+    background-color: grey;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.theRealVid{
+    background-color: darkgrey;
+}
+.username{
+   font-size: 1.5em;  
+}
+.accountknop2 {
+    color: #000;
+    font-size: 2.5em;
+    
+}
+@media only screen and (min-width: 1000px) {
+    
+    .cam{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    #timer{
+    width: 100%;
+    height: 30px;
+    background-image: url(../images/timer.png);
+}
+#vidContainer{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#gum{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+#recorded{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.btn{
+    margin-top: -4px;
+    color: #d2094f;
+    border: none;
+    width: 50%;
+    height: 50px;
+    font-size: 2em;
+    background-color: #f3bb24;
+}
+#btns{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+    padding-top: 50px;
+}
+section {
+    width: 360px;
+    height: 640px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.centerscreen {
+    width: 360px;
+}
+
+h1{
+    font-size: 2.5em;
+    margin-top: 50px;
+}
+.zeshoek{
+    height: 250px;
+}
+h3 {
+    color: #d2094f;
+    font: 'sans-serif';
+    font-size: 1.5em;
+    width: 300px;
+    text-align: center;
+
+}
+.vraagLinks{
+    display: flex;
+    justify-content: center;
+}
+.antwoord {
+    background-size: contain;
+    height: 200px;
+    display: flex;
+   
+}
+.ontdek {
+    background-size: contain;
+    height: 200px;
+    display: flex;
+}
+
+.upperbar {
+    height: 50px;
+}
+h2 {
+    font-size: 2.5em;
+
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.inputtext{
+    width: 80%;
+    height: 20px;
+}
+.accountknop {
+    margin: 15px auto;
+    font-size: 1em;
+    
+}
+.accountknop2 {
+    margin: 0px auto;
+    font-size: 1em;
+    
+}
+.registreerknop {
+    width: 80%;
+    height: 50px;
+    font-weight: bold;
+    margin-top: 0px;
+}
+.of {
+    margin-top: 50px;
+    font-size: 1.5em;
+    margin-top: 10px;
+    }
+.facebook {
+    height: 30px;
+    width: 60%;
+    margin-top: -15px;
+}
+    .formWrapper{
+        width: 100%;
+        height: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+.feed {
+    background-color: white;
+    margin: 0;
+}
+.logo {
+    height: 100px;
+    background-repeat: no-repeat;
+}
+.upperbar__feed {
+    height: 100px;
+}
+    .buttons{
+        width: 360PX;
+         bottom: 84px;
+    }
+.populair {
+    width: 50%;
+    height: 50px;
+    font-size: 1em;
+    
+}
+.nieuw {
+    width: 50%;
+    height: 50px;
+    font-size: 1em;
+}
+h4{
+     color: #d2094f;
+}
+.h4populair {
+    color: #ffeacc;
+}
+
+input[type=text]{
+    font-size: 1em;
+    padding-left: 10px;
+}
+input[type=submit]{
+    font-size: 1em;
+}
+.titelvraag{
+    margin: 0;
+}
+    
+}
